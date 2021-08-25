@@ -1,0 +1,47 @@
+.programgrid {
+    padding: 20px;
+  }
+  .card {
+    /* padding: 20px; */
+    color: midnightblue;
+    transition: 0.3s;
+    /* background-color: peru !important; */
+    border-radius: 0 !important;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .12);
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    
+  }
+  
+  .teacherheader {
+    color:#fff;
+    background: dodgerblue;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 14px;
+    /* background: papayawhip !important; */
+  }
+
+  .teacherdesc {
+    color: #fff;
+    color: midnightblue;
+    /* background: #f8c146; */
+    padding: 10px 10px 20px 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .programimage {
+    width: auto;
+    height: 300px;
+    overflow-y: hidden;
+  }
+  
+

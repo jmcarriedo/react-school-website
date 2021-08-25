@@ -1,0 +1,60 @@
+.admissiongrid {
+    padding: 20px;
+  
+    /* background-color: yellow; */
+    overflow: hidden;
+}
+.admissioncard {
+
+  color: midnightblue;
+  transition: 0.3s;
+  /* background-color: peru !important; */
+  border-radius: 0 !important;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .12);
+}
+
+.admissiongrid:hover {
+  /* transform: scale(1.02); */
+  border: solid 1px whitesmoke;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .12);
+}
+  
+.admissioncardheader {
+  color: #fff;
+  background: #f8c146;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 16px;
+  /* background: papayawhip !important; */
+}
+
+.admissioncarddesc {
+  color: #fff;
+  color: midnightblue;
+  /* background: #f8c146; */
+  padding: 10px 10px 20px 10px;
+  text-align: center;
+  font-size: 14px;
+  /* font-weight: 500; */
+}
+
+.admissionimage {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+
+.parallax {
+background-image: url("https://cdn.discordapp.com/attachments/701312584917450766/879754842309001256/img13.jpg");
+max-width: 100%;
+height: 50vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position-y: 100px;
+}

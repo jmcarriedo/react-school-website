@@ -1,0 +1,62 @@
+@media (max-width: 1200px) {
+  
+}
+@media (max-width: 768px) {
+
+}
+
+.aboutimage {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.aboutdesc {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.landinggrid {
+  padding: 20px;
+}
+.landingcard {
+  overflow: hidden;
+  margin: 20px;
+  color: midnightblue;
+  transition: 0.3s;
+  border-radius: 0 !important;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .12);
+}
+
+.landingcard:hover {
+  transform: rotate(1deg);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .12);
+  border: solid 1px yellow;
+}
+
+.landingcardheader {
+  color: midnightblue;
+  color: #fff;
+  padding: 20px;
+  font-weight: 500;
+  font-size: min(max(1.7rem, 4vw), 18px);
+  background: tomato !important;
+}
+
+.landingprogramimage {
+  width: auto;
+  height: 300px;
+  overflow-y: hidden;
+}
+
+@keyframes move {
+  from {
+    transform: rotate(0deg);
+  }
+  to {  
+    transform: rotate(1deg);
+  }
+}
