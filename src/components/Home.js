@@ -6,11 +6,14 @@ import Programs from './Landing Page/Programs'
 import Testimonials from './Landing Page/Testimonials'
 import Photos from './Landing Page/Photos'
 import ShopSection from './Landing Page/Shop'
+import Sidebar from './Sidebar/Sidebar';
+import Footer from './Footer';
 
 
 const HomePage = () => {
     return (
         <div>
+            <Sidebar />
             <Banner />
             <Rooms />
             <About />
@@ -18,6 +21,7 @@ const HomePage = () => {
             <Testimonials />
             <Photos />
             <ShopSection />
+            <Footer />
         </div>
     )
 }
