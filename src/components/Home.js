@@ -13,7 +13,6 @@ import Footer from './Footer';
 const HomePage = () => {
     return (
         <div>
-            <Sidebar />
             <Banner />
             <Rooms />
             <About />
@@ -21,7 +20,6 @@ const HomePage = () => {
             <Testimonials />
             <Photos />
             <ShopSection />
-            <Footer />
         </div>
     )
 }
