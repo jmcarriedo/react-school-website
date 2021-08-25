@@ -16,6 +16,7 @@ function App() {
 return (
 	<Router>
     <Info />
+    <Home />
     <Switch>
       <Route path='/index' exact component={Home} />
       <Route path='/about' component={About} />
