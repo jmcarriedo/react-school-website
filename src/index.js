@@ -14,7 +14,6 @@ import Home from './pages/index';
 
 ReactDOM.render(
   <Router>
-    <Info />
     <Switch>
       <Route path='/index' exact component={Home} />
       <Route path='/about' component={About} />
