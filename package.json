@@ -1,9 +1,9 @@
 {
-  "homepage": "http://jmcarriedo.github.io/react-school-website",
+  "homepage": "https://jmcarriedo.github.io",
   "name": "project",
   "version": "0.1.0",
   "description": "Little Rainbows School",
-  "private": true,
+  "private": false,
   "main": "src/index.js",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
@@ -57,5 +57,14 @@
   },
   "devDependencies": {
     "gh-pages": "^3.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmcarriedo/react-school-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmcarriedo/react-school-website/issues"
   }
 }

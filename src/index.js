@@ -10,13 +10,13 @@ import Admissions from './pages/admissions';
 import Contact from './pages/contact';
 import Login from './pages/login';
 import Shop from './pages/shop';
-import Home from './pages/home';
+import Home from './pages/index';
 
 
 ReactDOM.render(
-  <Router >
+  <Router basename="/react-school-website">
       <Switch>
-          <Route path='/home' exact component={Home} />
+          <Route path='/' exact component={Home} />
           <Route path='/about' component={About} />
           <Route path='/rooms' component={Rooms} />
           <Route path='/programs' component={Programs} />
