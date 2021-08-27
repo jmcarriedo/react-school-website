@@ -19,6 +19,7 @@ import {
 	CloseContainer,
 	CloseIcon,
 } from "./SidebarElements";
+import logo from '../Landing Page/assets/images/logo.png';
 
 
 const Sidebar = (props) => {
@@ -33,8 +34,8 @@ return (
 	<IconContext.Provider value={{ color: "#fff" }}>
 		<Nav>
         <NavBrand >  
-			<NavLink  to='/index' >
-            	<Brand src='https://media.discordapp.net/attachments/701312584917450766/877161085348745276/logo.png'
+			<NavLink  to='/' >
+            	<Brand src={logo} alt=''
 				className="jello-horizontal1"/>
 			</NavLink>
 		</NavBrand>
