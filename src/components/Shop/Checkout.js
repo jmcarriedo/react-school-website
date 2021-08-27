@@ -42,7 +42,7 @@ function Checkout() {
                         {items.map((item, index) => {
                         return (
                             <tr key={index}>
-                                <td className='col-lg-3 form-text text-dark'><img src={item.img} style={{height: '4rem'}} /></td>
+                                <td className='col-lg-3 form-text text-dark'><img src={item.img} style={{height: '4rem'}} alt=''/></td>
                                 <td className='col-lg-6 form-text text-dark'>{item.title}</td>
                                 <td className='col-lg-1 form-text text-dark'>Php {item.price}</td>
                                 <td className='col-lg-1 form-text text-dark'>Quantity: {item.quantity}</td>

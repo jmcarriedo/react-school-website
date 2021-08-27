@@ -5,16 +5,10 @@ import Grid from '@material-ui/core/Grid';
 import styled from "styled-components";
 import '../assets/css/Educators.css'
 import Avatar from '@material-ui/core/Avatar';
+import teacher1 from '../assets/images/teacher1.png';
+import teacher2 from '../assets/images/teacher2.jpeg';
+import teacher3 from '../assets/images/teacher3.jpeg';
 
-const boxa={
-    url: "https://cdn.discordapp.com/attachments/862586345176039455/879209567286870026/Picture2.png",
-}
-const boxb={
-    url: "https://cdn.discordapp.com/attachments/862586345176039455/879209571032387604/Picture4.jpg",
-}
-const boxc={
-    url: "https://cdn.discordapp.com/attachments/862586345176039455/879209568616472627/Picture3.jpg",
-}
 
 
 const useStyles = makeStyles((theme) => ({
@@ -29,7 +23,6 @@ const useStyles = makeStyles((theme) => ({
   boxsection: {
     padding: theme.spacing(5),
     textAlign: 'center',
-    color: theme.palette.text.secondary,
     fontSize: 'calc(6px + 2vmin)',
     color: '#213472',
     textDecoration: 'solid underline 1px #bac1d6',
@@ -39,7 +32,6 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     paddingBottom: '40px',
     textAlign: 'center',
-    color: theme.palette.text.secondary,
     fontSize: 'min(max(1.7rem, 4vw), 48px)',
     color: '#213472',
     fontWeight: '800',
@@ -54,27 +46,21 @@ const useStyles = makeStyles((theme) => ({
   boxtitle: {
     padding: theme.spacing(4),
     textAlign: 'center',
-    color: theme.palette.text.secondary,
     textTransform: 'uppercase',
     letterSpacing: '3px',
-    textDecoration: 'underline',
     textDecorationThickness: '1px',
-    textUnderlineOffset: '10px',
     fontSize: 'calc(8px + 2vmin)',
     color: '#213472',
     textDecoration: 'solid underline 1px #bac1d6',
     textUnderlineOffset: '14px',
-    // background: '#bac1d6',
   },
   boxtext: {
     padding: 'calc(100px + 1vmin)',
     textAlign: 'center',
-    color: theme.palette.text.secondary,
     fontSize: 'calc(6px + 1vmin)',
     color: '#213472;',
     fontWeight: '300',
     width: '100%',
-    // background: '#bac1d6',
   },
   boximage: {
     padding: theme.spacing(2),
@@ -89,7 +75,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export const MainContainer= styled.div`
-// background: yellow;
 padding: 80px 120px;
 @media (max-width: 1024px) {
     text-align: center;
@@ -111,9 +96,6 @@ export const BoxHeader= styled.div`
 font-family: "Lilita One", sans-serif;
 text-transform: uppercase;
 letter-spacing: 3px;
-// text-decoration: underline;
-// text-decoration-thickness: 1px;
-// text-underline-offset: 10px;
 @media (max-width: 1024px) {
   
 }
@@ -186,7 +168,6 @@ function EducatorsPage() {
         
         <Grid item sm={12} md={12} >
           <Box className={classes.boxcard}>
-          {/* <Box className={classes.boxtitle} >Philosophy</Box> */}
           <BoxText >
             <p>The early education teachers at our center are passionate about your child's happiness and growth. They're dedicated to providing a safe, nurturing environment that cultivates self-esteem. Teaching is more than a job to them. It's an opportunity to share their passion for life while they awaken the wonder inside each and every child. </p>
             <p>Our child care center devotes more time and resources to teacher training than any other childcare provider. Twice a year we host the largest early childhood teacher training program in the country. Our teachers are dedicated to developing your child's potential and are sensitive to your child's individual needs. </p>
@@ -200,15 +181,15 @@ function EducatorsPage() {
                 </Grid>
 
                <Grid item sm={6} lg={4} className="">
-                    <Avatar src={boxa.url} className={classes.avatarsection} />
+                    <Avatar src={teacher1} className={classes.avatarsection} alt=''/>
                     <div className="teacherheader">Teacher Nikki</div>
                </Grid>
                <Grid item sm={6} lg={4} className="">
-                    <Avatar src={boxb.url} className={classes.avatarsection} />  
+                    <Avatar src={teacher2} className={classes.avatarsection} alt='' />  
                     <div className="teacherheader">Teacher PJ</div>
                </Grid>
                <Grid item sm={6} lg={4} className="">
-                    <Avatar src={boxc.url} className={classes.avatarsection} />  
+                    <Avatar src={teacher3} className={classes.avatarsection} alt='' />  
                    <div className="teacherheader">Teacher Caren</div>
                 </Grid>
                 

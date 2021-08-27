@@ -5,26 +5,12 @@ import Grid from '@material-ui/core/Grid';
 import styled from "styled-components";
 import CardMedia from '@material-ui/core/CardMedia';
 import '../assets/css/Programs.css'
-
-const boxa={
-    url: "https://cdn.pixabay.com/photo/2018/08/06/16/43/writing-3587908_960_720.jpg",
-}
-const boxb={
-    url: "https://cdn.pixabay.com/photo/2017/01/26/05/13/oekaki-2009817_960_720.jpg",
-}
-const boxc={
-    url: "https://images.pexels.com/photos/8613121/pexels-photo-8613121.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940g",
-}
-const boxd={
-    url: "https://images.pexels.com/photos/8613095/pexels-photo-8613095.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-}
-const boxe={
-    url: "https://images.pexels.com/photos/6941096/pexels-photo-6941096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-}
-const boxf={
-    url: "https://images.pexels.com/photos/8613366/pexels-photo-8613366.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-}
-
+import program1 from '../assets/images/program1.jpeg';
+import program2 from '../assets/images/program2.jpeg';
+import program3 from '../assets/images/program3.jpeg';
+import program4 from '../assets/images/program4.jpeg';
+import program5 from '../assets/images/program5.jpeg';
+import program6 from '../assets/images/program6.jpeg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -111,35 +97,35 @@ function ProgramPage() {
                 </Grid>
                <Grid item sm={6} lg={4} className="programgrid wobble-hor-top">
                    <CardMedia className="programcard border-0">
-                        <img src={boxa.url} className="programimage"/>
+                        <img src={program1} className="programimage" alt=''/>
                     </CardMedia>   
                     <div className="cardheader">Writing</div>
                     <div className="carddesc">Children will learn the basic of writing like lines, curve, letter, numbers and many more.</div>
                </Grid>
                <Grid item sm={6} lg={4} className="programgrid wobble-hor-top">
                     <CardMedia className="programcard border-0">
-                        <img src={boxb.url} className="programimage"/>
+                        <img src={program2} className="programimage" alt=''/>
                     </CardMedia>
                     <div className="cardheader">Painting & Drawing</div>
                     <div className="carddesc">Children will experience how to express their creativity upon drawing and painting.</div>
                </Grid>
                <Grid item sm={6} lg={4} className="programgrid wobble-hor-top">
                     <CardMedia className="programcard border-0">
-                        <img src={boxc.url} className="programimage"/>
+                        <img src={program3} className="programimage" alt=''/>
                    </CardMedia>
                    <div className="cardheader">Phonetic Sounds</div>
                    <div className="carddesc">Children will learn the alphabet and experience how to say and pronounce syllables.</div>
                 </Grid>
             <Grid item sm={6} lg={4} className="programgrid wobble-hor-top">
                     <CardMedia className="programcard border-0">
-                        <img src={boxd.url} className="programimage"/>
+                        <img src={program4} className="programimage" alt=''/>
                    </CardMedia>  
                    <div className="cardheader">Counting Numbers</div>
                    <div className="carddesc">Children will learn how to count through fun activities.</div>
                </Grid>
                <Grid item sm={6} lg={4} className="programgrid wobble-hor-top">
                     <CardMedia className="programcard border-0">
-                        <img src={boxe.url} className="programimage"/>
+                        <img src={program5} className="programimage" alt=''/>
                         
                    </CardMedia>
                    <div className="cardheader">Handicraft Activity</div>
@@ -147,7 +133,7 @@ function ProgramPage() {
                </Grid>
                <Grid item sm={6} lg={4} className="programgrid wobble-hor-top">
                     <CardMedia className="programcard border-0">
-                        <img src={boxf.url} className="programimage"/>
+                        <img src={program6} className="programimage" alt=''/>
                         
                    </CardMedia>
                    <div className="cardheader">Playtime</div>

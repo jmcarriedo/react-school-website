@@ -6,9 +6,6 @@ import styled from "styled-components";
 import EnrolmentForm from './EnrolmentForm'
 import DataProvider from './DataProvider';
 
-const boxa={
-    url: "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-}
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -18,7 +15,6 @@ const useStyles = makeStyles((theme) => ({
   boxsection: {
     padding: theme.spacing(5),
     textAlign: 'center',
-    color: theme.palette.text.secondary,
     fontSize: 'calc(6px + 2vmin)',
     color: '#213472',
     textDecoration: 'solid underline 1px #bac1d6',
@@ -28,7 +24,6 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     paddingBottom: '40px',
     textAlign: 'center',
-    color: theme.palette.text.secondary,
     fontSize: 'min(max(1.7rem, 4vw), 48px)',
     color: '#213472',
     fontWeight: '800',
@@ -43,12 +38,9 @@ const useStyles = makeStyles((theme) => ({
   boxtitle: {
     padding: theme.spacing(4),
     textAlign: 'center',
-    color: theme.palette.text.secondary,
     textTransform: 'uppercase',
     letterSpacing: '3px',
-    textDecoration: 'underline',
     textDecorationThickness: '1px',
-    textUnderlineOffset: '10px',
     fontSize: 'calc(8px + 2vmin)',
     color: '#213472',
     textDecoration: 'solid underline 1px #bac1d6',
@@ -57,7 +49,6 @@ const useStyles = makeStyles((theme) => ({
   boxtext: {
     padding: 'calc(100px + 1vmin)',
     textAlign: 'center',
-    color: theme.palette.text.secondary,
     fontSize: 'calc(6px + 1vmin)',
     color: '#213472;',
     fontWeight: '300',

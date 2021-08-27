@@ -1,34 +1,18 @@
 import React from 'react';
-import styled from "styled-components";
 import Grid from '@material-ui/core/Grid';
-import Card from '@material-ui/core/Card';
-import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
 import "./assets/css/Rooms.css";
 import { 
 	Container,
     MainHeader,
 } from "./LandingElements";
+import program1 from './assets/images/program1.jpeg';
+import program2 from './assets/images/program2.jpeg';
+import program3 from './assets/images/program3.jpeg';
+import program4 from './assets/images/program4.jpeg';
+import program5 from './assets/images/program5.jpeg';
+import program6 from './assets/images/program6.jpeg';
 
-
-const boxa={
-    url: "https://cdn.pixabay.com/photo/2018/08/06/16/43/writing-3587908_960_720.jpg",
-}
-const boxb={
-    url: "https://cdn.pixabay.com/photo/2017/01/26/05/13/oekaki-2009817_960_720.jpg",
-}
-const boxc={
-    url: "https://images.pexels.com/photos/8613121/pexels-photo-8613121.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940g",
-}
-const boxd={
-    url: "https://images.pexels.com/photos/8613095/pexels-photo-8613095.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-}
-const boxe={
-    url: "https://images.pexels.com/photos/6941096/pexels-photo-6941096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-}
-const boxf={
-    url: "https://images.pexels.com/photos/8613366/pexels-photo-8613366.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-}
 
 const Programs = () => {
 
@@ -47,41 +31,41 @@ const Programs = () => {
                 </Grid>
                <Grid item sm={6} lg={4} className="landingprogramgrid">
                    <CardMedia className="landingcard border-0">
-                        <img src={boxa.url} className="programimage"/>
+                        <img src={program1} className="programimage" alt=''/>
                         <div className="landingcardheader">Writing</div>
                     </CardMedia>  
                </Grid>
                <Grid item sm={6} lg={4} className="landingprogramgrid">
                     <CardMedia className="landingcard border-0">
-                        <img src={boxb.url} className="landingprogramimage"/>
+                        <img src={program2} className="landingprogramimage" alt=''/>
                         <div className="landingcardheader">Drawing</div>
                     </CardMedia>
                     
                </Grid>
                <Grid item sm={6} lg={4} className="landingprogramgrid">
                     <CardMedia className="landingcard border-0">
-                        <img src={boxc.url} className="landingprogramimage"/>
+                        <img src={program3} className="landingprogramimage" alt=''/>
                         <div className="landingcardheader">Phonetic Sounds</div>
                    </CardMedia>
                    
                </Grid>
                <Grid item sm={6} lg={4} className="landingprogramgrid">
                     <CardMedia className="landingcard border-0">
-                        <img src={boxd.url} className="landingprogramimage"/>
+                        <img src={program4} className="landingprogramimage" alt=''/>
                         <div className="landingcardheader">Counting Numbers</div>
                    </CardMedia>  
                    
                </Grid>
                <Grid item sm={6} lg={4} className="landingprogramgrid">
                     <CardMedia className="landingcard border-0">
-                        <img src={boxe.url} className="landingprogramimage"/>
+                        <img src={program5} className="landingprogramimage" alt=''/>
                         <div className="landingcardheader">Handicraft</div>
                    </CardMedia>
                    
                </Grid>
                <Grid item sm={6} lg={4} className="landingprogramgrid">
                     <CardMedia className="landingcard border-0">
-                        <img src={boxf.url} className="landingprogramimage"/>
+                        <img src={program6} className="landingprogramimage" alt=''/>
                         <div className="landingcardheader">Playtime</div>
                    </CardMedia>
                    

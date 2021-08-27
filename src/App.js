@@ -12,8 +12,9 @@ import Home from './pages/index';
 
 const App = () => {
     return (
-        <Router basename="/react-school-website">
+        <Router>
         <Switch>
+            <Route path='/' exact component={Home} />
             <Route path='/index' exact component={Home} />
             <Route path='/about' component={About} />
             <Route path='/rooms' component={Rooms} />

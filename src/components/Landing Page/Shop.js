@@ -3,9 +3,7 @@ import styled from "styled-components";
 import { Link } from 'react-router-dom';
 import { 
 	Container,
-    MainHeader,
     Header,
-    SubHeader,
     Button,
 } from "./LandingElements";
 
@@ -38,7 +36,7 @@ const ShopSection = () => {
             <Grid container className='' order={{md:2, lg:1}}>  
             <Grid item md={12} lg={6} className="" order={{md:1, lg:2}}>
                 <Card>
-                    <img src={sale} />
+                    <img src={sale} alt=''/>
                 </Card>
             </Grid>
             <Grid item md={12} lg={6} >

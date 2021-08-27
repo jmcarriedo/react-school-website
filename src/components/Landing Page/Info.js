@@ -1,12 +1,7 @@
 import React from 'react'
 import Snackbar from '@material-ui/core/Snackbar';
-import MuiAlert from '@material-ui/lab/Alert';
 import styled from 'styled-components';
 import InfoIcon from '@material-ui/icons/Info';
-
-function Alert(props) {
-    return <MuiAlert elevation={6} variant="filled" {...props} />;
-}
 
 export const Notif=styled.div`
 background: dodgerblue;
@@ -28,10 +23,7 @@ const Info = () => {
       });
     
       const { vertical, horizontal, open } = state;
-    
-      const handleClick = (newState) => () => {
-        setState({ open: true, ...newState });
-      };
+  
     
       const handleClose = (event, reason) => {
         setState({ ...state, open: false });

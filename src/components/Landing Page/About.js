@@ -5,7 +5,6 @@ import {
     MainHeader,
     Header,
     SubHeader,
-    Paragraph,
 } from "./LandingElements";
 import Grid from '@material-ui/core/Grid';
 import Card from '@material-ui/core/Card';

@@ -3,7 +3,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import styled from "styled-components";
-
+import about1 from '../assets/images/about1.png';
+import about2 from '../assets/images/about2.png';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -12,7 +13,6 @@ const useStyles = makeStyles((theme) => ({
   boxsection: {
     padding: theme.spacing(5),
     textAlign: 'center',
-    color: theme.palette.text.secondary,
     fontSize: 'calc(6px + 2vmin)',
     color: '#213472',
     textDecoration: 'solid underline 1px #bac1d6',
@@ -22,7 +22,6 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     paddingBottom: '40px',
     textAlign: 'center',
-    color: theme.palette.text.secondary,
     fontSize: 'min(max(1.7rem, 4vw), 48px)',
     color: '#213472',
     fontWeight: '800',
@@ -37,12 +36,8 @@ const useStyles = makeStyles((theme) => ({
   boxtitle: {
     padding: theme.spacing(4),
     textAlign: 'center',
-    color: theme.palette.text.secondary,
     textTransform: 'uppercase',
     letterSpacing: '3px',
-    textDecoration: 'underline',
-    textDecorationThickness: '1px',
-    textUnderlineOffset: '10px',
     fontSize: 'calc(8px + 2vmin)',
     color: '#213472',
     textDecoration: 'solid underline 1px #bac1d6',
@@ -51,7 +46,6 @@ const useStyles = makeStyles((theme) => ({
   boxtext: {
     padding: 'calc(100px + 1vmin)',
     textAlign: 'center',
-    color: theme.palette.text.secondary,
     fontSize: 'calc(6px + 1vmin)',
     color: '#213472;',
     fontWeight: '300',
@@ -85,7 +79,7 @@ function AboutPage() {
         <Grid container style={{order:'2'}}>
         <Grid item sm={12} md={6} style={{order:'1'}} >
           <BoxImage >
-            <img src='https://cdn.discordapp.com/attachments/701312584917450766/877477660266225675/Screen_Shot_2021-08-18_at_5.02.25_PM.png' />
+            <img src={about1} alt='' />
           </BoxImage>
         </Grid>
         <Grid item sm={12} md={6} style={{order:'2'}}>
@@ -111,7 +105,7 @@ function AboutPage() {
         <Grid item sm={12} md={6} >
           <div >       
           <BoxImage >
-            <img src='https://cdn.discordapp.com/attachments/701312584917450766/877477644554362921/Screen_Shot_2021-08-18_at_5.02.07_PM.png' />
+            <img src={about2} alt='' />
           </BoxImage>
           </div>
         </Grid>
