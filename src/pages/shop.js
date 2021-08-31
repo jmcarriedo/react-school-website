@@ -6,7 +6,7 @@ import Sidebar from '../components/Sidebar/Sidebar';
 const Shop = () => {
   return (
     <div>
-      <Sidebar />
+
       <ShopPage />
       <Footer />
     </div>

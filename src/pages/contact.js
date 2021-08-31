@@ -6,7 +6,7 @@ import Sidebar from '../components/Sidebar/Sidebar';
 const Contact = () => {
   return (
     <div>
-      <Sidebar />
+
       <ContactPage />
       <Footer />
     </div>

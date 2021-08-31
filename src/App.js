@@ -7,7 +7,6 @@ import Admissions from './pages/admissions';
 import Contact from './pages/contact';
 import Login from './pages/login';
 import Shop from './pages/shop';
-import HomePage from './components/Home';
 import Sidebar from './components/Sidebar/Sidebar';
 import Index from './pages/index';
 
@@ -16,7 +15,6 @@ const App = () => {
         <>
         <Router>
         <Sidebar />
-        <div>Hello</div>
             <Switch>
                 <Route path='/' exact component={Index} />
                 <Route path='/about' component={About} />
