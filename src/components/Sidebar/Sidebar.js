@@ -40,7 +40,7 @@ return (
 			</NavLink>
 		</NavBrand>
         <NavMenu>
-          <NavLink to='/index' activeStyle>
+          <NavLink to='/' activeStyle>
             Home
           </NavLink>
           <NavLink to='/about' activeStyle>
@@ -62,7 +62,7 @@ return (
             Contact
           </NavLink>
 		  <NavBtn>
-          <NavBtnLink to='/login'>  <span style={{width:'25px',marginLeft:'-5px'}}><Login/></span>Portal </NavBtnLink>
+          <NavBtnLink to='/login'>  <span style={{width:'25px',marginLeft:'-5px'}}><Login/></span>LOG IN</NavBtnLink>
           </NavBtn>
         </NavMenu>
 		<NavIcon to="#">

@@ -34,7 +34,7 @@ function Header() {
             <Button color="inherit" 
             className='btn btn-dark' 
             style={{width:'100px'}}>
-              <Link to='/index' style={{textDecoration:'none',color:'white'}}>
+              <Link to='/' style={{textDecoration:'none',color:'white'}}>
                 Logout
               </Link>
             </Button> 

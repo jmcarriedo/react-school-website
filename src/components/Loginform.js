@@ -10,6 +10,7 @@ import Footer from './Footer';
 import Header from './Dashboard/Header';
 import Alert from '@material-ui/lab/Alert';
 import Snackbar from '@material-ui/core/Snackbar';
+import Sidebar from './Sidebar/Sidebar';
 
 
 const Loginform = () => {
@@ -49,6 +50,7 @@ const Loginform = () => {
 
     if(authorize === false) {return (
       <>
+      <Sidebar />
       <Container>
         <BoxForm>
           <form className='col-8 p-4 form'>

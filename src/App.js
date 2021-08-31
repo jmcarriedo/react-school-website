@@ -7,17 +7,14 @@ import Admissions from './pages/admissions';
 import Contact from './pages/contact';
 import Login from './pages/login';
 import Shop from './pages/shop';
-import Home from './pages/index';
-import Sidebar from './components/Sidebar/Sidebar';
+import HomePage from './components/Home';
 
 const App = () => {
     return (
         <div>
         <Router>
-            <Sidebar />
-            <Home />
             <Switch>
-                {/* <Route path='/' exact component={Home} /> */}
+                <Route path='/' exact component={HomePage} />
                 <Route path='/about' component={About} />
                 <Route path='/programs' component={Programs} />
                 <Route path='/educators' component={Educators} />
