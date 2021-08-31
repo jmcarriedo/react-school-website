@@ -27,14 +27,14 @@ function Header() {
       <div className={classes.root}>
         <AppBar position="static" color="primary">
           <Toolbar>
-            {/* <span style={{width:'50px',marginRight:'10px'}}><img src={logo} alt='' /></span> */}
+            <span style={{width:'50px',marginRight:'10px'}}><img src={logo} alt='' /></span>
             <Typography variant="h6" className={classes.title}>
               Student Record Dashboard
             </Typography>
             <Button color="inherit" 
             className='btn btn-dark' 
             style={{width:'100px'}}>
-              <Link to='/' style={{textDecoration:'none',color:'white'}}>
+              <Link to={process.env.PUBLIC_URL + '/'} style={{textDecoration:'none',color:'white'}}>
                 Logout
               </Link>
             </Button> 

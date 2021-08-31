@@ -9,25 +9,12 @@ import Login from './pages/login';
 import Shop from './pages/shop';
 import Home from './pages/index';
 
-
-import Sidebar from './components/Sidebar/Sidebar';
-import HomePage from './components/Home';
-import AboutPage from './components/About';
-import ProgramsPage from './components/Programs';
-import EducatorsPage from './components/Educators';
-import AdmissionsPage from './components/Admissions';
-import ShopPage from './components/Shop';
-import ContactPage from './components/Contact';
-import Loginform from './components/Loginform';
-import Footer from './components/Footer';
-
 const App = () => {
     return (
         <>
         <Router>
-            <Sidebar />
             <Switch>
-                <Route path='/' exact component={Home} />
+                <Route path={process.env.PUBLIC_URL + '/'} exact component={Home} />
                 <Route path='/about' component={About} />
                 <Route path='/programs' component={Programs} />
                 <Route path='/educators' component={Educators} />

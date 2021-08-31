@@ -6,7 +6,7 @@ import Sidebar from '../components/Sidebar/Sidebar';
 const Programs = () => {
   return (
     <div>
-
+      <Sidebar />
       <ProgramsPage />
       <Footer />
     </div>

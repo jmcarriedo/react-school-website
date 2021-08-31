@@ -34,13 +34,13 @@ return (
 	<IconContext.Provider value={{ color: "#fff" }}>
 		<Nav>
         <NavBrand >  
-			<NavLink  to='/' >
+			<NavLink  to={process.env.PUBLIC_URL + '/'} >
             	<Brand src={logo} alt=''
 				className="jello-horizontal1"/>
 			</NavLink>
 		</NavBrand>
         <NavMenu>
-          <NavLink to='/' activeStyle>
+          <NavLink to={process.env.PUBLIC_URL + '/'} activeStyle>
             Home
           </NavLink>
           <NavLink to='/about' activeStyle>

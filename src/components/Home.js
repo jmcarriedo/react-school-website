@@ -15,7 +15,6 @@ import Sidebar from './Sidebar/Sidebar';
 const HomePage = () => {
     return (
         <div>
-       
             <Info  />
             <Banner />
             <Rooms />
@@ -24,7 +23,6 @@ const HomePage = () => {
             <Testimonials />
             <Photos />
             <ShopSection />
-            <Footer />
         </div>
     )
 }
