@@ -13,8 +13,8 @@ import Sidebar from './components/Sidebar/Sidebar';
 const App = () => {
     return (
         <>
+        <Sidebar />
         <Router>
-            <Sidebar />
             <Switch>
                 <Route path='/' exact component={HomePage} />
                 <Route path='/about' component={About} />
