@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-school-website/static/css/main.80d91e1b.chunk.css",
-    "main.js": "/react-school-website/static/js/main.b2e6750d.chunk.js",
-    "main.js.map": "/react-school-website/static/js/main.b2e6750d.chunk.js.map",
+    "main.js": "/react-school-website/static/js/main.68d1ef3a.chunk.js",
+    "main.js.map": "/react-school-website/static/js/main.68d1ef3a.chunk.js.map",
     "runtime-main.js": "/react-school-website/static/js/runtime-main.be97fbe3.js",
     "runtime-main.js.map": "/react-school-website/static/js/runtime-main.be97fbe3.js.map",
     "static/css/2.818011ed.chunk.css": "/react-school-website/static/css/2.818011ed.chunk.css",
@@ -44,6 +44,6 @@
     "static/css/2.818011ed.chunk.css",
     "static/js/2.40a9088f.chunk.js",
     "static/css/main.80d91e1b.chunk.css",
-    "static/js/main.b2e6750d.chunk.js"
+    "static/js/main.68d1ef3a.chunk.js"
   ]
 }
