@@ -8,10 +8,11 @@ import Contact from './pages/contact';
 import Login from './pages/login';
 import Shop from './pages/shop';
 import HomePage from './components/Home';
+import Sidebar from './components/Sidebar/Sidebar';
 
 const App = () => {
     return (
-        <div>
+        <>
         <Router>
             <Switch>
                 <Route path='/' exact component={HomePage} />
@@ -24,7 +25,7 @@ const App = () => {
                 <Route path='/login' component={Login} />
             </Switch>
         </Router>
-        </div>
+        </>
     )
 }
 
