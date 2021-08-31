@@ -8,7 +8,7 @@ import Contact from './pages/contact';
 import Login from './pages/login';
 import Shop from './pages/shop';
 import Sidebar from './components/Sidebar/Sidebar';
-import Index from './pages/index';
+import Home from './pages/index';
 
 const App = () => {
     return (
@@ -16,7 +16,7 @@ const App = () => {
         <Router>
             <Sidebar />
             <Switch>
-                <Route path='/' component={Index} />
+                <Route path='/' component={Home} />
                 <Route path='/about' component={About} />
                 <Route path='/programs' component={Programs} />
                 <Route path='/educators' component={Educators} />
