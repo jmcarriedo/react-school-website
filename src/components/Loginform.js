@@ -49,8 +49,7 @@ const Loginform = () => {
 
 
     if(authorize === false) {return (
-      
-      <><Sidebar />
+      <>
       <Container>
         <BoxForm>
           <form className='col-8 p-4 form'>

@@ -27,9 +27,9 @@ function Header() {
       <div className={classes.root}>
         <AppBar position="static" color="primary">
           <Toolbar>
-            <span style={{width:'50px',marginRight:'10px'}}><img src={logo} alt='' /></span>
+            {/* <span style={{width:'50px',marginRight:'10px'}}><img src={logo} alt='' /></span> */}
             <Typography variant="h6" className={classes.title}>
-              Admin Dashboard
+              Student Record Dashboard
             </Typography>
             <Button color="inherit" 
             className='btn btn-dark' 

@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 const Admissions = () => {
   return (
     <div>
-      <Sidebar />
+     
       <AdmissionsPage />
       <Footer />
     </div>

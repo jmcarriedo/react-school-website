@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 const Shop = () => {
   return (
     <div>
-      <Sidebar />
+      
       <ShopPage />
       <Footer />
     </div>

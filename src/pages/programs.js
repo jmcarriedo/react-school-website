@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 const Programs = () => {
   return (
     <div>
-      <Sidebar />
+      
       <ProgramsPage />
       <Footer />
     </div>

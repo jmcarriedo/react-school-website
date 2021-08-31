@@ -62,7 +62,7 @@ return (
             Contact
           </NavLink>
 		  <NavBtn>
-          <NavBtnLink to='/login'>  <span style={{width:'25px',marginLeft:'-5px'}}><Login/></span>Log In </NavBtnLink>
+          <NavBtnLink to='/login'>  <span style={{width:'25px',marginLeft:'-5px'}}><Login/></span>Portal </NavBtnLink>
           </NavBtn>
         </NavMenu>
 		<NavIcon to="#">
