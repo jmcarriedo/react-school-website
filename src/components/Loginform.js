@@ -6,7 +6,6 @@ import { TextField, Typography, Button } from "@material-ui/core";
 import {Container} from './Landing Page/LandingElements';
 import DataProvider from '../components/DataProvider';
 import List from '../components/List';
-import Sidebar from './Sidebar/Sidebar';
 import Footer from './Footer';
 import Header from './Dashboard/Header';
 import Alert from '@material-ui/lab/Alert';
