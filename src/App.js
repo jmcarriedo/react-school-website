@@ -14,6 +14,7 @@ const App = () => {
     return (
         <>
         <Router>
+            <Sidebar />
             <Switch>
                 <Route path='/index' exact component={Index} />
                 <Route path='/about' component={About} />
