@@ -14,7 +14,6 @@ const App = () => {
     return (
         <>
         <Router>
-        
             <Switch>
                 <Route path='/' exact component={Index} />
                 <Route path='/about' component={About} />
